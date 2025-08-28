@@ -1,30 +1,38 @@
-Mutual Refinement Distillation (MRD) for Multimodal Emotion Recognition
-Overview
-With the rapid advancement of speech emotion recognition, the transition from unimodal to multimodal approaches has become inevitable. However, multimodal methods introduce new challenges, particularly classification ambiguity in complex samples when compared to unimodal approaches.
+# Mutual Refinement Distillation (MRD) for Multimodal Emotion Recognition
 
-To address these challenges, we propose a Mutual Refinement Distillation (MRD) method, which integrates three key components to enhance multimodal emotion recognition:
+## Introduction
 
-Modal Interaction Calibration
+With the rapid advancement of speech emotion recognition, the transition from unimodal to multimodal approaches has become inevitable. However, multimodal methods introduce new challenges, especially classification ambiguity in complex samples compared to unimodal approaches.
 
-Enhances classification accuracy for complex samples by calibrating the interactions between different modalities.
+**Mutual Refinement Distillation (MRD)** is a novel method designed to address these difficulties by leveraging interactive learning and curriculum strategies for better multimodal emotion recognition.
 
-Interactive Learning Constraints
+## Key Features
 
-Mitigates overfitting by enforcing constraints during the interactive learning process.
+MRD integrates three major components:
 
-Reverse Curriculum Learning
+1. **Modal Interaction Calibration**  
+   - Enhances the classification accuracy for complex samples by calibrating interactions between modalities.
 
-Further improves model robustness by adjusting the learning sequence, starting from more difficult samples.
+2. **Interactive Learning Constraints**  
+   - Mitigates overfitting through effective interactive learning constraints.
 
-Methodology
-The MRD framework is designed to jointly refine multimodal representations and facilitate effective knowledge distillation between modalities, specifically targeting the classification of complex and ambiguous samples in multimodal emotion recognition tasks.
+3. **Reverse Curriculum Learning**  
+   - Improves model robustness by reversing the traditional curriculum learning order, focusing on more complex samples earlier.
 
-Pipeline
-<img width="1282" height="702" alt="pipline" src="https://github.com/user-attachments/assets/1e64308f-281f-463f-9a29-e4abcbb8c634" />
+## Pipeline
 
-Experiments
-We evaluate the MRD method on two widely-used benchmark datasets:
+![Pipeline](https://github.com/user-attachments/assets/c481e063-2deb-4a67-b227-eb4f1b827f25)
 
-MELD
-IEMOCAP
-Our experimental results demonstrate that MRD outperforms state-of-the-art methods in emotion recognition, achieving a notable 6.07% improvement over the baseline on the IEMOCAP dataset.
+## Results
+
+MRD has been evaluated on the following benchmarks:
+- **MELD**
+- **IEMOCAP**
+
+**Highlights:**
+- Outperforms state-of-the-art methods in emotion recognition.
+- Achieves a notable **6.07% improvement over the baseline on IEMOCAP**.
+
+## Usage
+
+Coming soon.
