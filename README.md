@@ -84,3 +84,6 @@ For further assistance, please open an issue or contact the project maintainer.
 
 ---
 
+## Acknowledgements
+Special thanks to the following authors for their contributions through open-source implementations.
+[CMERC](https://github.com/HITSZ-HLT/CMERC)
